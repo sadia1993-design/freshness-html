@@ -1,0 +1,273 @@
+.alignleft {
+    float: left;
+    margin-right: 15px;
+}
+.alignright {
+    float: right;
+    margin-left: 15px;
+}
+.aligncenter {
+    display: block;
+    margin: 0 auto 15px;
+}
+a:hover { text-decoration: none }
+a:focus { outline: 0 solid; text-decoration: none}
+img {
+    max-width: 100%;
+    height: auto;
+}
+body{
+    font-family: 'Roboto', sans-serif;
+}
+ul{
+    margin: 0;padding: 0;list-style: none;
+}
+ul li{
+    display: inline-block;
+}
+ul li a{display: block; color: #fff;}
+input:focus, button:focus, textarea:focus, a:focus {outline: none}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    margin: 0 0 15px;
+    font-weight: 700;
+    font-family: 'PT Serif', serif;
+}
+p:last-child {
+    margin-bottom: 0
+}
+
+/* header area*/
+header#header-area {
+    border-top: 5px solid #3bafbe;
+    border-bottom: 1px solid #e2e2e2;
+    padding: 18px 0 23px 0;
+}
+
+.social-area ul li {
+    margin-right: 9px;
+}
+
+.social-area ul li a {
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+    background: #000;
+    line-height: 30px;
+    text-align: center;
+}
+.social-area ul li a:hover {
+    background: #ee802f;
+    color: #fff;
+}
+div#main-menu ul li a {
+    color: #999999;
+    font-size: 12px;
+    font-weight: bold;
+}
+div#main-menu ul li:last-child {
+    margin-right: 0;
+}
+
+div#main-menu ul li {
+    margin-right: 23PX;
+}
+.social-area {
+    margin-bottom: 16px;
+}
+/* search area */
+.social-area {
+    margin-bottom: 16px;
+}
+
+.search-area {
+    text-align: right;
+    margin-bottom: 33px;
+}
+
+div#main-menu {
+    text-align: right;
+}
+.search-area input[type=text] {
+    background: #000;
+    border: 1px solid #000;
+    border-radius: 9px;
+    padding: 5px 9px;
+}
+.search-area input[type=submit] {
+    background: #3bafbe;
+    border: 1px solid #3bafbe;
+    border-radius: 9px;
+    padding: 5px 9px;
+    color: #fff;
+}
+/* banner area start */
+section#banner-area {
+    padding: 50px 0;
+    border-bottom: 1px solid #e2e2e2;
+}
+.banner-content {
+    display: flex;
+}
+
+.banner-wrapper {
+    flex-basis: 73.5%;
+    padding-top: 45px;
+}
+
+.banner-img {
+    flex-basis: 26.5%;
+    margin-right: 122px;
+}
+a.box-btn {
+    background: #3bafbe;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    padding: 11px 27px;
+    border-radius: 15px;
+}
+/* blog area */
+section#blog-area {
+    padding: 49px 0;
+    border-bottom: 1px solid #e2e2e2;
+}
+
+.img-box {
+    margin-bottom: 22px;
+}
+
+.single-blog p {
+    margin-bottom: 15px;
+}
+.img-box a img {
+    width: 100%;
+}
+/*service area*/
+.service-heading.text-center p {
+    font-size: 22px;
+    color: #666;
+    font-style: italic;
+    padding: 50px 0;
+}
+.service-box {
+    display: flex;
+}
+
+.service-img {
+    flex-basis: 24%;
+    margin-right: 16px;
+}
+
+.service-content {
+    flex-basis: 76%;
+}
+.mb-40{margin-bottom: 40px;}
+section#service-area {
+    padding-bottom: 50px;
+}
+.service-content h4 {
+    color: #3bafbe;
+    font-weight: 400;
+    margin-bottom: 6px;
+    font-size: 20px;
+}
+
+.service-content p {
+    color: #848c92;
+    font-size: 12px;
+}
+/*footer area*/
+/*------- bottom footer -------------*/
+.footer-bottom {background: #1a1a1a;padding: 25px 0;}
+
+p.copyright-text {
+    color: #999999;
+    font-size: 14px;
+}
+
+p.foo-bo-title {
+    color: #999999;
+    font-size: 14px;
+}
+/*------- top footer -------------*/
+.footer-top {
+    background: #252525;
+    padding: 40px 0;
+}
+
+h3.foo-title {
+    color: #fff;
+    font-size: 20px;
+    margin-bottom: 30px;
+}
+.footer-content p {
+    color: #999999;
+}
+
+.footer-content ul li {
+    display: block;
+    font-size: 12px;
+}
+
+.footer-content ul li a {
+    color: #3bafbe;
+    border-bottom: 1px solid #808080;
+    padding-bottom: 20px;
+    padding-top: 20px;
+}
+
+.footer-content ul li:first-child a {
+    padding-top: 0;
+}
+.blog-cont h4 {
+    font-size: 13px;
+    color: #999;
+    margin-bottom: 9px;
+}
+
+.blog-cont h5 {
+    font-size: 11px;
+    color: #999;
+}
+
+.blog-cont p {
+    font-size: 12px;
+    text-align: justify;
+}
+
+.blog-cont a {
+    font-size: 12px;
+    text-align: right;
+    display: inherit;
+    color: #3bafbe;
+}
+input.text-name, .text-email {
+    background: #808080;
+    border: 1px solid #808080;
+}
+button.box-btn {
+    background: #3bafbe;
+    color: #fff;
+    display: inline-block;
+    font-size: 16px;
+    padding: 7px 24px;
+    border-radius: 8px;
+    border: 0;
+}
+input::placeholder {
+    color: #989898;
+    font-size: 13px;
+}
+input:focus {
+    border: 0;
+}
+/* toggle */
+button.navbar-toggler {
+    display: block;
+    margin: 0 0 0 auto;
+}
