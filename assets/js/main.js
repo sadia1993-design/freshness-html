@@ -2,16 +2,15 @@
 	"use strict";
 
     jQuery(document).ready(function($){
-        $('.banner-carousel').owlCarousel(
-            items:3,
+        $('.activator').owlCarousel({
             loop:true,
+            nav:false,
+            items:1,
             autoplay:true,
-            dots:true,
-            nav:false
-        );
+            dots:true
+          
+        });
     });
     
-    jQuery(window).load(function(){
-        
-    });
+    
 }(jQuery));	
