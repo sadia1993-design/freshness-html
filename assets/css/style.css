@@ -265,10 +265,11 @@ button.box-btn {
     border-radius: 8px;
     border: 0;
 }
-input::placeholder {
-    color: #989898;
+.footer-content input::placeholder {
+    color: #fff;
     font-size: 13px;
 }
+
 input:focus {
     border: 0;
 }
