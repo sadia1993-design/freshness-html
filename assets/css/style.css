@@ -18,6 +18,8 @@ img {
 }
 body{
     font-family: 'Roboto', sans-serif;
+    font-size: 15px;
+    line-height: 23px;
 }
 ul{
     margin: 0;padding: 0;list-style: none;
@@ -36,6 +38,8 @@ h6 {
     margin: 0 0 15px;
     font-weight: 700;
     font-family: 'PT Serif', serif;
+    font-size: 30px;
+   
 }
 p:last-child {
     margin-bottom: 0
@@ -107,7 +111,7 @@ div#main-menu {
 }
 /* banner area start */
 section#banner-area {
-    padding: 50px 0;
+    padding: 80px 0;
     border-bottom: 1px solid #e2e2e2;
 }
 .banner-content {
@@ -133,7 +137,7 @@ a.box-btn {
 }
 /* blog area */
 section#blog-area {
-    padding: 49px 0;
+    padding: 80px 0;
     border-bottom: 1px solid #e2e2e2;
 }
 
@@ -149,10 +153,10 @@ section#blog-area {
 }
 /*service area*/
 .service-heading.text-center p {
-    font-size: 22px;
+    
     color: #666;
     font-style: italic;
-    padding: 50px 0;
+    padding-bottom: 50px;
 }
 .service-box {
     display: flex;
@@ -168,7 +172,7 @@ section#blog-area {
 }
 .mb-40{margin-bottom: 40px;}
 section#service-area {
-    padding-bottom: 50px;
+    padding: 80px 0;
 }
 .service-content h4 {
     color: #3bafbe;
@@ -197,7 +201,7 @@ p.foo-bo-title {
 /*------- top footer -------------*/
 .footer-top {
     background: #252525;
-    padding: 40px 0;
+    padding: 80px 0;
 }
 
 h3.foo-title {
@@ -220,7 +224,9 @@ h3.foo-title {
     padding-bottom: 20px;
     padding-top: 20px;
 }
-
+.footer-content ul li:last-child a {
+    border-bottom: 0;
+}
 .footer-content ul li:first-child a {
     padding-top: 0;
 }
