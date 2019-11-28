@@ -142,7 +142,7 @@ section#blog-area {
 }
 
 .img-box {
-    margin-bottom: 22px;
+   margin-bottom: 31px;
 }
 
 .single-blog p {
@@ -156,7 +156,7 @@ section#blog-area {
     
     color: #666;
     font-style: italic;
-    padding-bottom: 50px;
+    margin-bottom: 80px;
 }
 .service-box {
     display: flex;
